@@ -1,19 +1,80 @@
-nav {
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
+/*Ctrl + [Espacio] lista opciones de cada propiedad*/
+
+* {
+    margin: 0;
+    padding: 10px;
+    font-family: arial;
+    background-color: darkgoldenrod;
 }
 
 header{
-    border: solid;
+    text-align: center;    
 }
 
-*   {
-    margin: 0;
-    padding: 0;
-    font-family: arial;
+nav {
+    align-items: center;
+    padding: 5px;
 }
 
-div{
-    border:solid
+.header-menu-list{
+    text-decoration: none;     
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-menu-item{
+    text-decoration: none;
+    background-color: darkgreen;
+    color: whitesmoke;    
+    list-style: none;   
+}
+
+h1  {
+    align-content: center;
+    font-size: xx-large;
+    
+}
+
+.main-content-image  {
+    text-align: center;
+    background-color: #8f1717c9;
+    align-content: center;
+}
+
+.box-content{
+    display: flex;
+}
+
+.box{
+    width: 50%;
+}
+
+.right-content{
+    font-size: 50px;
+    font-weight: bold;    
+}
+
+p{
+    font-size: 25px;
+}
+
+img{
+    border-radius: 75%; 
+}
+
+section{
+    background-color: darkgreen;
 }
